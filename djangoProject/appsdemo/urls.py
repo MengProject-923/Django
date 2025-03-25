@@ -9,4 +9,5 @@ urlpatterns = [
     path('migrations/', views.get_migrations, name='get_migrations'),
 
     path('update_users/', views.update_users, name='update_users'),
+
 ]
